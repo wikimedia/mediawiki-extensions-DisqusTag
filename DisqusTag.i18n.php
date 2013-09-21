@@ -36,6 +36,13 @@ $messages['es'] = array(
 	'disqustag-desc' => 'Introduce etiquetas <code>&lt;disqus&gt;</code> que inserta enlaces que abren discusiones [http://disqus.com Disqus]',
 );
 
+/** Persian (فارسی)
+ * @author Dalba
+ */
+$messages['fa'] = array(
+	'disqustag-desc' => 'تگ <code>&lt;disqus&gt;</code> را برای درج پیوند درونی‌ای که یک گفتگوی [http://disqus.com دیسکاس] را بالا می‌پرانند می‌افزاید.',
+);
+
 /** French (français)
  * @author Gomoko
  */
@@ -55,6 +62,13 @@ $messages['gl'] = array(
  */
 $messages['ja'] = array(
 	'disqustag-desc' => '[http://disqus.com Disqus] の議論がポップアップするインライン リンクを挿入する <code>&lt;disqus&gt;</code> タグを追加する',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'disqustag-desc' => 'Дава ознака <code>&lt;disqus&gt;</code> што се става во врска во самиот текст и дава скокачко прозорче за дискусии со [http://disqus.com Disqus]',
 );
 
 /** Ukrainian (українська)
