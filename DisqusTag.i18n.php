@@ -30,10 +30,11 @@ $messages['de'] = array(
 );
 
 /** Spanish (español)
+ * @author Fitoschido
  * @author Luis Felipe Schenone
  */
 $messages['es'] = array(
-	'disqustag-desc' => 'Introduce etiquetas <code>&lt;disqus&gt;</code> que inserta enlaces que abren discusiones [http://disqus.com Disqus]',
+	'disqustag-desc' => 'Añade la etiqueta <code>&lt;disqus&gt;</code> que permite insertar enlaces que abren secciones de comentarios de [http://disqus.com Disqus]',
 );
 
 /** Persian (فارسی)
@@ -55,6 +56,13 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'disqustag-desc' => 'Engade a etiqueta <code>&lt;disqus&gt;</code> para inserir unha ligazón en liña que abre ventás emerxentes con conversas de [http://disqus.com Disqus]',
+);
+
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'disqustag-desc' => 'Adde un etiquetta <code>&lt;disqus&gt;</code> pro incorporar un ligamine que face surger le discussiones de [http://disqus.com Disqus]',
 );
 
 /** Japanese (日本語)
