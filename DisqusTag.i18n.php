@@ -79,6 +79,13 @@ $messages['mk'] = array(
 	'disqustag-desc' => 'Дава ознака <code>&lt;disqus&gt;</code> што се става во врска во самиот текст и дава скокачко прозорче за дискусии со [http://disqus.com Disqus]',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'disqustag-desc' => "Aggiunge 'u tag <code>&lt;disqus&gt;</code> pe sckaffà 'nu collegamende in linèe ca iapre 'na finestre de 'ngazzamende de [http://disqus.com Disqus]",
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
