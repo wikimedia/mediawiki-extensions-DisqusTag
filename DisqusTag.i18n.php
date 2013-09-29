@@ -65,6 +65,13 @@ $messages['ia'] = array(
 	'disqustag-desc' => 'Adde un etiquetta <code>&lt;disqus&gt;</code> pro incorporar un ligamine que face surger le discussiones de [http://disqus.com Disqus]',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'disqustag-desc' => 'Aggiunge il tag <code>&lt;disqus&gt;</code> per inserire un collegamento in linea che apre la discussione [http://disqus.com Disqus]',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
@@ -84,6 +91,13 @@ $messages['mk'] = array(
  */
 $messages['roa-tara'] = array(
 	'disqustag-desc' => "Aggiunge 'u tag <code>&lt;disqus&gt;</code> pe sckaffà 'nu collegamende in linèe ca iapre 'na finestre de 'ngazzamende de [http://disqus.com Disqus]",
+);
+
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'disqustag-desc' => 'Добавляет тег <code>&lt;disqus&gt;</code> для вставки встроенные ссылки, которые выводят обсуждения [http://disqus.com Disqus]',
 );
 
 /** Ukrainian (українська)
