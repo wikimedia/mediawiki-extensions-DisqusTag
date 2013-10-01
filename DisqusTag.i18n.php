@@ -22,6 +22,13 @@ $messages['qqq'] = array(
 	'disqustag-desc' => '{{desc|name=DisqusTag|url=https://www.mediawiki.org/wiki/Extension:DisqusTag}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'disqustag-desc' => "Amiesta la etiqueta <code>&lt;disqus&gt;</code> pa inxertar un enllaz en llinia qu'abre una ventana con alderiques de [http://disqus.com Disqus]",
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
