@@ -107,6 +107,13 @@ $messages['ru'] = array(
 	'disqustag-desc' => 'Добавляет тег <code>&lt;disqus&gt;</code> для вставки встроенные ссылки, которые выводят обсуждения [http://disqus.com Disqus]',
 );
 
+/** Slovenian (slovenščina)
+ * @author Eleassar
+ */
+$messages['sl'] = array(
+	'disqustag-desc' => 'Doda oznako <code>&lt;disqus&gt;</code>, ki vstavi znotrajvrstično povezavo za izskok pogovorov na spletišču [http://disqus.com Disqus]',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
