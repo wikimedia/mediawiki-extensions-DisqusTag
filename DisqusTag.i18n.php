@@ -86,6 +86,13 @@ $messages['ja'] = array(
 	'disqustag-desc' => '[http://disqus.com Disqus] の議論がポップアップするインライン リンクを挿入する <code>&lt;disqus&gt;</code> タグを追加する',
 );
 
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'disqustag-desc' => 'Pievieno <code>&lt;disqus&gt;</code> iezīmi, lai ievietotu teksta saiti, ar kuru var atvērt [http://disqus.com Disqus] diskusijas',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
