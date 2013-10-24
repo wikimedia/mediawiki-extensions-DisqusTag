@@ -121,6 +121,13 @@ $messages['sl'] = array(
 	'disqustag-desc' => 'Doda oznako <code>&lt;disqus&gt;</code>, ki vstavi znotrajvrstično povezavo za izskok pogovorov na spletišču [http://disqus.com Disqus]',
 );
 
+/** Swedish (svenska)
+ * @author Ainali
+ */
+$messages['sv'] = array(
+	'disqustag-desc' => 'Lägger till <code>&lt;disqus&gt;</code>-taggen för att infoga en länk som öppnar upp [http://disqus.com Disqus]-diskussioner',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
