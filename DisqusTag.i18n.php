@@ -100,6 +100,13 @@ $messages['mk'] = array(
 	'disqustag-desc' => 'Дава ознака <code>&lt;disqus&gt;</code> што се става во врска во самиот текст и дава скокачко прозорче за дискусии со [http://disqus.com Disqus]',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'disqustag-desc' => 'Adiciona a etiqueta <code>&lt;disqus&gt;</code> para inserir um ligação em linha que abre janelas [http://disqus.com Disqus] de discussão.',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
