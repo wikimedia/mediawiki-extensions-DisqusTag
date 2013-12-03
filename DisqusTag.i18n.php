@@ -100,6 +100,13 @@ $messages['mk'] = array(
 	'disqustag-desc' => 'Дава ознака <code>&lt;disqus&gt;</code> што се става во врска во самиот текст и дава скокачко прозорче за дискусии со [http://disqus.com Disqus]',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'disqustag-desc' => 'Voegt het label <code>&lt;disqus&gt;</code> toe om een koppeling toe te voegen voor een popup naar discussies in [http://disqus.com Disqus]',
+);
+
 /** Brazilian Portuguese (português do Brasil)
  * @author Cainamarques
  */
