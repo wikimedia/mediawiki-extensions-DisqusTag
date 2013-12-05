@@ -65,6 +65,13 @@ $messages['gl'] = array(
 	'disqustag-desc' => 'Engade a etiqueta <code>&lt;disqus&gt;</code> para inserir unha ligazón en liña que abre ventás emerxentes con conversas de [http://disqus.com Disqus]',
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'disqustag-desc' => 'Přidawa element <code>&lt;disqus&gt;</code> za zasadźenje wotkaza do linkow, kotryž [http://disqus.com Disqus]-diskusije zwobraznja',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
