@@ -155,3 +155,10 @@ $messages['sv'] = array(
 $messages['uk'] = array(
 	'disqustag-desc' => 'Додає теґ <code>&lt;disqus&gt;</code>, щоб вставити вбудоване посилання на спливні обговорення [http://disqus.com Disqus]',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'disqustag-desc' => '添加<code>&lt;disqus&gt;</code>标签，用以增加一个弹出[http://disqus.com Disqus]讨论的内文链接',
+);
