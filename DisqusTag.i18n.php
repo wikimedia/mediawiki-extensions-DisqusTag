@@ -93,6 +93,13 @@ $messages['ja'] = array(
 	'disqustag-desc' => '[http://disqus.com Disqus] の議論がポップアップするインライン リンクを挿入する <code>&lt;disqus&gt;</code> タグを追加する',
 );
 
+/** Korean (한국어)
+ * @author Priviet
+ */
+$messages['ko'] = array(
+	'disqustag-desc' => '<code>&lt;disqus&gt;</code> 태그를 추가하여 [http://disqus.com Disqus] 토론 팝업을 띄우는 인라인 링크 삽입',
+);
+
 /** Latvian (latviešu)
  * @author Papuass
  */
