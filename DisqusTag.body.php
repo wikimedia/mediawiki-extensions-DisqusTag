@@ -12,10 +12,10 @@ class DisqusTag {
 		return true;
 	}
 
-	public static function addDisqusElements( &$data ) {
-		global $wgDisqusShortname;
+	public static function addDisqusElements( &$data, Skin $skin ) {
+		global $egDisqusShortname;
 		$data .= '<div id="disqus_dialog" title="Discuss"><div id="disqus_thread"></div></div>';
-		$data .= '<script type="text/javascript">var disqus_shortname = "' . $wgDisqusShortname . '";</script>';
+		$data .= '<script>var egDisqusShortname = "' . $egDisqusShortname . '";</script>';
 		return true;
 	}
 
@@ -31,7 +31,7 @@ class DisqusTag {
 		if ( $input ) {
 			$title = $input;
 		}
-		$link = '<a id="disqus-' . $id . '" href="" onclick="window.showDisqusDialog(\'' . $id . '\'); return false;">' . $title . '</a>';
+		$link = '<a id="disqus-' . $id . '" href="#" onclick="window.showDisqusDialog(\'' . $id . '\'); return false;">' . $title . '</a>';
 		return $link;
 	}
 }
