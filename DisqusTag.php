@@ -5,7 +5,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'name' => 'DisqusTag',
 	'descriptionmsg' => 'disqustag-desc',
 	'version' => 0.2,
-	'author' => array( 'Alexey Beloblotskiy', 'Luis Felipe Schenone' ),
+	'author' => 'Luis Felipe Schenone',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:DisqusTag',
 );
 
