@@ -114,6 +114,13 @@ $messages['ru'] = array(
 	'disqustag-desc' => 'Добавляет тег <code>&lt;disqus&gt;</code> для вставки встроенные ссылки, которые выводят обсуждения [http://disqus.com Disqus]',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'disqustag-desc' => 'Adds <code>&lt;disqus&gt;</code> tag tae insert aen inline link that pop up [http://disqus.com Disqus] discussions',
+);
+
 /** Slovenian (slovenščina)
  * @author Eleassar
  */
