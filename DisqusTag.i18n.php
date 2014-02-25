@@ -65,6 +65,13 @@ $messages['gl'] = array(
 	'disqustag-desc' => 'Engade a etiqueta <code>&lt;disqus&gt;</code> para inserir unha ligazón en liña que abre ventás emerxentes con conversas de [http://disqus.com Disqus]',
 );
 
+/** Hebrew (עברית)
+ * @author Yona b
+ */
+$messages['he'] = array(
+	'disqustag-desc' => 'מוסיף תג <code>&lt;disqus&gt;</code> כדי להוסיף קישור לחלון קופץ לשיחות [http://disqus.com Disqus]',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
