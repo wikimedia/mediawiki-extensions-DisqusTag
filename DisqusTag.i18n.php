@@ -65,18 +65,18 @@ $messages['gl'] = array(
 	'disqustag-desc' => 'Engade a etiqueta <code>&lt;disqus&gt;</code> para inserir unha ligazón en liña que abre ventás emerxentes con conversas de [http://disqus.com Disqus]',
 );
 
-/** Upper Sorbian (hornjoserbsce)
- * @author Michawiki
- */
-$messages['hsb'] = array(
-	'disqustag-desc' => 'Přidawa element <code>&lt;disqus&gt;</code> za zasadźenje wotkaza do linkow, kotryž [http://disqus.com Disqus]-diskusije zwobraznja',
-);
-
 /** Hebrew (עברית)
  * @author Yona b
  */
 $messages['he'] = array(
 	'disqustag-desc' => 'מוסיף תג <code>&lt;disqus&gt;</code> כדי להוסיף קישור לחלון קופץ לשיחות [http://disqus.com Disqus]',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'disqustag-desc' => 'Přidawa element <code>&lt;disqus&gt;</code> za zasadźenje wotkaza do linkow, kotryž [http://disqus.com Disqus]-diskusije zwobraznja',
 );
 
 /** Interlingua (interlingua)
@@ -128,18 +128,18 @@ $messages['nl'] = array(
 	'disqustag-desc' => 'Voegt het label <code>&lt;disqus&gt;</code> toe om een koppeling toe te voegen voor een popup naar discussies in [http://disqus.com Disqus]',
 );
 
-/** Brazilian Portuguese (português do Brasil)
- * @author Cainamarques
- */
-$messages['pt-br'] = array(
-	'disqustag-desc' => 'Adiciona a etiqueta <code>&lt;disqus&gt;</code> para inserir um ligação em linha que abre janelas [http://disqus.com Disqus] de discussão.',
-);
-
 /** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
 	'disqustag-desc' => 'Acrescenta o elemento <code>&lt;disqus&gt;</code> que apresenta na linha um <i>link</i> que causa o surgimento de janelas flutuantes com discussões [http://disqus.com Disqus]',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'disqustag-desc' => 'Adiciona a etiqueta <code>&lt;disqus&gt;</code> para inserir um ligação em linha que abre janelas [http://disqus.com Disqus] de discussão.',
 );
 
 /** tarandíne (tarandíne)
@@ -160,7 +160,7 @@ $messages['ru'] = array(
  * @author John Reid
  */
 $messages['sco'] = array(
-	'disqustag-desc' => 'Adds <code>&lt;disqus&gt;</code> tag tae insert aen inline link that pop up [http://disqus.com Disqus] discussions',
+	'disqustag-desc' => 'Eiks <code>&lt;disqus&gt;</code> tag tae insert aen inline airtin that pop up [http://disqus.com Disqus] tauks',
 );
 
 /** Slovenian (slovenščina)
