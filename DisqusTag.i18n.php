@@ -65,6 +65,13 @@ $messages['gl'] = array(
 	'disqustag-desc' => 'Engade a etiqueta <code>&lt;disqus&gt;</code> para inserir unha ligazón en liña que abre ventás emerxentes con conversas de [http://disqus.com Disqus]',
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'disqustag-desc' => 'Přidawa element <code>&lt;disqus&gt;</code> za zasadźenje wotkaza do linkow, kotryž [http://disqus.com Disqus]-diskusije zwobraznja',
+);
+
 /** Hebrew (עברית)
  * @author Yona b
  */
@@ -93,6 +100,13 @@ $messages['ja'] = array(
 	'disqustag-desc' => '[http://disqus.com Disqus] の議論がポップアップするインライン リンクを挿入する <code>&lt;disqus&gt;</code> タグを追加する',
 );
 
+/** Korean (한국어)
+ * @author Priviet
+ */
+$messages['ko'] = array(
+	'disqustag-desc' => '<code>&lt;disqus&gt;</code> 태그를 추가하여 [http://disqus.com Disqus] 토론 팝업을 띄우는 인라인 링크 삽입',
+);
+
 /** Latvian (latviešu)
  * @author Papuass
  */
@@ -105,6 +119,20 @@ $messages['lv'] = array(
  */
 $messages['mk'] = array(
 	'disqustag-desc' => 'Дава ознака <code>&lt;disqus&gt;</code> што се става во врска во самиот текст и дава скокачко прозорче за дискусии со [http://disqus.com Disqus]',
+);
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'disqustag-desc' => 'Voegt het label <code>&lt;disqus&gt;</code> toe om een koppeling toe te voegen voor een popup naar discussies in [http://disqus.com Disqus]',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'disqustag-desc' => 'Adiciona a etiqueta <code>&lt;disqus&gt;</code> para inserir um ligação em linha que abre janelas [http://disqus.com Disqus] de discussão.',
 );
 
 /** Portuguese (português)
@@ -142,9 +170,23 @@ $messages['sl'] = array(
 	'disqustag-desc' => 'Doda oznako <code>&lt;disqus&gt;</code>, ki vstavi znotrajvrstično povezavo za izskok pogovorov na spletišču [http://disqus.com Disqus]',
 );
 
+/** Swedish (svenska)
+ * @author Ainali
+ */
+$messages['sv'] = array(
+	'disqustag-desc' => 'Lägger till <code>&lt;disqus&gt;</code>-taggen för att infoga en länk som öppnar upp [http://disqus.com Disqus]-diskussioner',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
 $messages['uk'] = array(
 	'disqustag-desc' => 'Додає теґ <code>&lt;disqus&gt;</code>, щоб вставити вбудоване посилання на спливні обговорення [http://disqus.com Disqus]',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'disqustag-desc' => '添加<code>&lt;disqus&gt;</code>标签，用以增加一个弹出[http://disqus.com Disqus]讨论的内文链接',
 );
