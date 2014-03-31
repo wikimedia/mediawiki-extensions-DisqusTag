@@ -4,7 +4,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'DisqusTag',
 	'descriptionmsg' => 'disqustag-desc',
-	'version' => 0.2,
+	'version' => '0.3.0',
 	'author' => 'Luis Felipe Schenone',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:DisqusTag',
 );
@@ -18,6 +18,7 @@ $wgResourceModules['ext.DisqusTag'] = array(
 	'remoteExtPath' => 'DisqusTag',
 );
 
+$wgMessagesDirs['DisqusTag'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['DisqusTag'] = __DIR__ . '/DisqusTag.i18n.php';
 $wgAutoloadClasses['DisqusTag'] = __DIR__ . '/DisqusTag.body.php';
 
