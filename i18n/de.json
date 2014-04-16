@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Metalhead64"
-        ]
-    },
-    "disqustag-desc": "Ergänzt das <code>&lt;disqus&gt;</code>-Tag zum Einfügen eines Links in Zeilen, das [http://disqus.com Disqus]-Diskussionen erscheinen lässt"
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"disqustag-desc": "Ergänzt das <code>&lt;disqus&gt;</code>-Tag zum Einfügen eines Links in Zeilen, das [http://disqus.com Disqus]-Diskussionen erscheinen lässt"
 }
