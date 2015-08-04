@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Priviet"
+			"Priviet",
+			"아라"
 		]
 	},
-	"disqustag-desc": "<code>&lt;disqus&gt;</code> 태그를 추가하여 [http://disqus.com Disqus] 토론 팝업을 띄우는 인라인 링크 삽입"
+	"disqustag-desc": "[http://disqus.com Disqus] 토론 팝업을 띄우는 인라인 링크를 넣기 위해 <code>&lt;disqus&gt;</code> 태그을 추가합니다"
 }
