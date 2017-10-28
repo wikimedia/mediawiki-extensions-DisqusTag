@@ -19,7 +19,6 @@ $wgResourceModules['ext.DisqusTag'] = array(
 );
 
 $wgMessagesDirs['DisqusTag'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['DisqusTag'] = __DIR__ . '/DisqusTag.i18n.php';
 $wgAutoloadClasses['DisqusTag'] = __DIR__ . '/DisqusTag.body.php';
 
 $wgHooks['BeforePageDisplay'][] = 'DisqusTag::addModule';
