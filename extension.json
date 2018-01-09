@@ -1,0 +1,36 @@
+{
+	"name": "DisqusTag",
+	"version": "0.3.0",
+	"author": "Luis Felipe Schenone",
+	"url": "https://www.mediawiki.org/wiki/Extension:DisqusTag",
+	"descriptionmsg": "disqustag-desc",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"DisqusTag": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"DisqusTag": "DisqusTag.body.php"
+	},
+	"ResourceModules": {
+		"ext.DisqusTag": {
+			"scripts": "DisqusTag.js",
+			"styles": "DisqusTag.css",
+			"position": "bottom",
+			"dependencies": [
+				"jquery.ui.dialog"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "DisqusTag"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "DisqusTag::addModule",
+		"ParserFirstCallInit": "DisqusTag::setParserHook",
+		"SkinAfterContent": "DisqusTag::addDisqusElements"
+	},
+	"manifest_version": 2
+}
