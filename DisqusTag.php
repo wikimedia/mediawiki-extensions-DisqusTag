@@ -11,5 +11,5 @@ if ( function_exists( 'DisqusTag' ) ) {
 	);
 	return;
 } else {
-	die( 'This version of the DisqusTag extension requires MediaWiki 1.25+' );
+	die( 'This version of the DisqusTag extension requires MediaWiki 1.29+' );
 }

@@ -5,6 +5,9 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:DisqusTag",
 	"descriptionmsg": "disqustag-desc",
 	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
 	"MessagesDirs": {
 		"DisqusTag": [
 			"i18n"
