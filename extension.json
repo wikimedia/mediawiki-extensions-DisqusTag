@@ -1,9 +1,10 @@
 {
 	"name": "DisqusTag",
-	"version": "0.3.0",
+	"version": "0.3",
 	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Felipe Schenone]",
 	"url": "https://www.mediawiki.org/wiki/Extension:DisqusTag",
 	"descriptionmsg": "disqustag-desc",
+	"license-name": "GPL-3.0",
 	"type": "parserhook",
 	"requires": {
 		"MediaWiki": ">= 1.29.0"
@@ -14,7 +15,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"DisqusTag": "DisqusTag.body.php"
+		"DisqusTag": "DisqusTag.php"
 	},
 	"ResourceModules": {
 		"ext.DisqusTag": {
@@ -35,5 +36,8 @@
 		"ParserFirstCallInit": "DisqusTag::setParserHook",
 		"SkinAfterContent": "DisqusTag::addDisqusElements"
 	},
-	"manifest_version": 2
+	"config": {
+		"DisqusShortname": "your-disqus-shortname"
+	},
+	"manifest_version": 1
 }

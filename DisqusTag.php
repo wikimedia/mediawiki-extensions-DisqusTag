@@ -1,15 +1,37 @@
 <?php
 
-if ( function_exists( 'DisqusTag' ) ) {
-	wfLoadExtension( 'DisqusTag' );
-	// Keep i18n globals so mergeMessageFileList.php doesn't break
-	$wgMessagesDirs['DisqusTag'] = __DIR__ . '/i18n';
-	wfWarn(
-		'Deprecated PHP entry point used for the DisqusTag extension. ' .
-		'Please use wfLoadExtension instead, ' .
-		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
-	);
-	return;
-} else {
-	die( 'This version of the DisqusTag extension requires MediaWiki 1.29+' );
+class DisqusTag {
+
+	public static function addModule( &$out ) {
+		$out->addModules( 'ext.DisqusTag' );
+		return true;
+	}
+
+	public static function setParserHook( Parser $parser ) {
+		$parser->setHook( 'disqus', 'DisqusTag::renderDisqusLink' );
+		return true;
+	}
+
+	public static function addDisqusElements( &$data, Skin $skin ) {
+		global $egDisqusShortname;
+		$data .= '<div id="disqus_dialog" title="Discuss"><div id="disqus_thread"></div></div>';
+		$data .= '<script>var egDisqusShortname = "' . $egDisqusShortname . '";</script>';
+		return true;
+	}
+
+	public static function renderDisqusLink( $input, array $args, Parser $parser, PPFrame $frame ) {
+		$id = '';
+		if ( array_key_exists( 'id', $args ) ) {
+			$id = $args['id'];
+		}
+		$title = 'Discuss';
+		if ( array_key_exists( 'title', $args ) ) {
+			$title = $args['title'];
+		}
+		if ( $input ) {
+			$title = $input;
+		}
+		$link = '<a id="disqus-' . $id . '" href="#" onclick="window.showDisqusDialog(\'' . $id . '\'); return false;">' . $title . '</a>';
+		return $link;
+	}
 }
