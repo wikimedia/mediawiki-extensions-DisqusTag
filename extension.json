@@ -21,7 +21,6 @@
 		"ext.DisqusTag": {
 			"scripts": "DisqusTag.js",
 			"styles": "DisqusTag.css",
-			"position": "bottom",
 			"dependencies": [
 				"jquery.ui.dialog"
 			]
