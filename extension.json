@@ -36,6 +36,7 @@
 		"SkinAfterContent": "DisqusTag::addDisqusElements"
 	},
 	"config": {
+		"_prefix": "eg",
 		"DisqusShortname": "your-disqus-shortname"
 	},
 	"manifest_version": 1
