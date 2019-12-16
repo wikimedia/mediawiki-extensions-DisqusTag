@@ -7,7 +7,7 @@
 	"license-name": "GPL-3.0-only",
 	"type": "parserhook",
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.34.0"
 	},
 	"MessagesDirs": {
 		"DisqusTag": [
@@ -22,7 +22,7 @@
 			"scripts": "DisqusTag.js",
 			"styles": "DisqusTag.css",
 			"dependencies": [
-				"jquery.ui.dialog"
+				"jquery.ui"
 			]
 		}
 	},
