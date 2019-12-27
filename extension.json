@@ -19,16 +19,16 @@
 	},
 	"ResourceModules": {
 		"ext.DisqusTag": {
-			"scripts": "DisqusTag.js",
-			"styles": "DisqusTag.css",
+			"scripts": "js/DisqusTag.js",
+			"styles": "css/DisqusTag.css",
 			"dependencies": [
 				"jquery.ui"
 			]
 		}
 	},
 	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "DisqusTag"
+		"localBasePath": "resources",
+		"remoteExtPath": "DisqusTag/resources"
 	},
 	"Hooks": {
 		"BeforePageDisplay": "DisqusTag::addModule",
