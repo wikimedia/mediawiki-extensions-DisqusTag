@@ -2,5 +2,10 @@
 	"root": true,
 	"extends": [
 		"wikimedia/client"
-	]
+	],
+	"rules": {
+		"no-undef": "off",
+		"no-implicit-globals": "off",
+		"vars-on-top": "off"
+	}
 }
