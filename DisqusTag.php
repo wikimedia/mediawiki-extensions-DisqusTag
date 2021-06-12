@@ -22,10 +22,21 @@ class DisqusTag {
 	 * @return mixed
 	 */
 	public static function addDisqusElements( &$data, Skin $skin ) {
-		global $egDisqusShortname;
 		$data .= '<div id="disqus_dialog" title="Discuss"><div id="disqus_thread"></div></div>';
-		$data .= '<script>var egDisqusShortname = "' . $egDisqusShortname . '";</script>';
 		return true;
+	}
+
+	/**
+	 * Set static (not request-specific) JS configuration variables
+	 *
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ResourceLoaderGetConfigVars
+	 * @param array &$vars Array of variables to be added into the output of the startup module
+	 * @param string $skin Current skin name to restrict config variables to a certain skin
+	 * @param Config $config
+	 */
+	public static function onResourceLoaderGetConfigVars( array &$vars, $skin, Config $config ) {
+		global $egDisqusShortname;
+		$vars['egDisqusShortname'] = $egDisqusShortname;
 	}
 
 	/**

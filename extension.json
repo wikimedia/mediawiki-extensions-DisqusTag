@@ -33,6 +33,7 @@
 	"Hooks": {
 		"BeforePageDisplay": "DisqusTag::addModule",
 		"ParserFirstCallInit": "DisqusTag::setParserHook",
+		"ResourceLoaderGetConfigVars": "DisqusTag::onResourceLoaderGetConfigVars",
 		"SkinAfterContent": "DisqusTag::addDisqusElements"
 	},
 	"config": {
