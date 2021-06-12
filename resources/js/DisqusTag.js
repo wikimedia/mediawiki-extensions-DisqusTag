@@ -18,9 +18,13 @@ window.showDisqusDialog = function ( id ) {
 };
 
 jQuery( function () {
+	var shortname = mw.config.get( 'egDisqusShortname' );
+	if ( !shortname ) {
+		return;
+	}
 	var disqus = document.createElement( 'script' );
 	disqus.type = 'text/javascript';
 	disqus.async = true;
-	disqus.src = '//' + egDisqusShortname + '.disqus.com/embed.js';
+	disqus.src = '//' + shortname + '.disqus.com/embed.js';
 	document.getElementsByTagName( 'body' )[ 0 ].appendChild( disqus );
 } );
