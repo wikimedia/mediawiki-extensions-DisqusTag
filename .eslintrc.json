@@ -7,7 +7,6 @@
 	"rules": {
 		"no-undef": "off",
 		"no-implicit-globals": "off",
-		"vars-on-top": "off",
 		"compat/compat": "off"
 	}
 }
