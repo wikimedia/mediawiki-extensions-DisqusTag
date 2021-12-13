@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andriykopanytsia"
+			"Andriykopanytsia",
+			"DDPAT"
 		]
 	},
-	"disqustag-desc": "Додає теґ <code>&lt;disqus&gt;</code>, щоб вставити вбудоване посилання на спливні обговорення [http://disqus.com Disqus]"
+	"disqustag-desc": "Додає тег <code>&lt;disqus&gt;</code>, щоб вставити вбудоване посилання на спливні обговорення [http://disqus.com Disqus]"
 }
