@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"disqustag-desc": "Ajoute la balise <code>&lt;disqus&gt;</code> pour insérer un lien en ligne qui fait surgir les discussions [http://disqus.com Disqus]"
+	"disqustag-desc": "Ajoute la balise <code>&lt;disqus&gt;</code> pour insérer un lien en ligne qui fait surgir les discussions [http://disqus.com Disqus]."
 }
