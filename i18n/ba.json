@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sagan"
+			"Sagan",
+			"З. ӘЙЛЕ"
 		]
 	},
-	"disqustag-desc": "Ҡушылған һылтанмаларға <code>&lt;disqus&gt;</code> тегын өҫтәй, фекерләшеү битенә сығара  [http://disqus.com Disqus]"
+	"disqustag-desc": "[http://disqus.com Disqus] фекер алышыу битен сығарған ҡушылған һылтанмаларҙы индереү өсөн <code>&lt;disqus&gt;</code> тамғаһын өҫтәй"
 }
