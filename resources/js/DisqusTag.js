@@ -5,7 +5,7 @@ window.showDisqusDialog = function ( id ) {
 		position: 'top'
 	} );
 
-	var identifier = url = location.protocol + '//' + location.hostname + location.pathname + '#!' + id;
+	const identifier = url = location.protocol + '//' + location.hostname + location.pathname + '#!' + id;
 
 	// Reset Disqus to show the thread corresponding to the clicked button
 	DISQUS.reset( {
@@ -17,12 +17,12 @@ window.showDisqusDialog = function ( id ) {
 	} );
 };
 
-jQuery( function () {
-	var shortname = mw.config.get( 'egDisqusShortname' );
+jQuery( () => {
+	const shortname = mw.config.get( 'egDisqusShortname' );
 	if ( !shortname ) {
 		return;
 	}
-	var disqus = document.createElement( 'script' );
+	const disqus = document.createElement( 'script' );
 	disqus.type = 'text/javascript';
 	disqus.async = true;
 	disqus.src = '//' + shortname + '.disqus.com/embed.js';
