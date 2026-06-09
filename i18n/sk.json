@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"disqustag-desc": "Pridáva značku <code>&lt;disqus&gt;</code> na vloženie vnútorného odkazu, ktorý vyvolá diskusie [http://disqus.com Disqus]"
+}
